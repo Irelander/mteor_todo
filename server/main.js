@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import { BoardCollection } from '/imports/api/BoardCollection';
 
 const insertBoard = taskBoard => BoardCollection.insert({ no: taskBoard, title: taskBoard, category: taskBoard, dictionary: taskBoard, language: taskBoard, word: taskBoard });
-// const insertBoard = taskBoard => BoardCollection.insert({ no: taskBoard }, { title: taskBoard }, { title: taskBoard }, { category: taskBoard }, { dictionary: taskBoard }, { dictionary: taskBoard }, { word: taskBoard });
+// const insertBoard = taskBoard => BoardCollection.insert({ no: taskBoard }, { title: taskBoard }, { category: taskBoard }, { dictionary: taskBoard }, { language: taskBoard }, { dictionary: taskBoard }, { word: taskBoard });
 
 //7번줄에 ({}) <--- 저렇게 코드를 정의를 하는게 맞는지 궁금합니다. 여기에 인설트할 데이터들이 들어가는게 맞는지?
 Meteor.startup(() => {
