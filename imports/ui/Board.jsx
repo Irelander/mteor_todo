@@ -10,18 +10,24 @@ export const Board = ({ board }) => {
         <TableBody>
             <TableHead>
                 <TableRow>
-                    {/* <TableCell>{board.no}</TableCell> */}
+                    <TableCell>{board.no}</TableCell>
                     <TableCell>{board.title}</TableCell>
-                    {/* <TableCell>{board.category}</TableCell>
+                    <TableCell>{board.category}</TableCell>
                     <TableCell>{board.dictionary}</TableCell>
                     <TableCell>{board.language}</TableCell>
-                    <TableCell>{board.word}</TableCell> */}
+                    <TableCell>{board.word}</TableCell>
                 </TableRow>
             </TableHead>
         </TableBody>
     </Table>
-
 };
+
+
+
+
+
+
+
 {/* <TableRow>
 <TableCell>{board.no}</TableCell>
 <TableCell>{board.category}</TableCell>
